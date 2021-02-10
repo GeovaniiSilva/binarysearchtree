@@ -5,14 +5,9 @@ if __name__ == "__main__":
 
     t = BinarySearchTree()
 
-    t.insert(8)
-    t.insert(3)
-    t.insert(1)
-    t.insert(6)
-    t.insert(4)
-    t.insert(7)
-    t.insert(10)
-    t.insert(14)
-    t.insert(13)
+    labels = [8, 3, 1, 6, 4, 7, 10, 14, 13]
+
+    for label in labels:
+        t.insert(label=label)
 
     t.show(t.getRoot())
